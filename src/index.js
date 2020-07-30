@@ -18,7 +18,6 @@ ReactDOM.render(
       <Route path="/cadastro/categoria" component={CadastroCategoria} />
 
       <Route path="*" component={NotFound}/>
-      <Route component={() => (<div>Página 404</div>)} />
     </Switch>
   </BrowserRouter>,
 
